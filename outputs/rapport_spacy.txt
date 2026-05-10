@@ -1,0 +1,49 @@
+=================================================================
+ANALYSE SPACY — FONCTION SYNTAXIQUE DES TERMES MISOGYNES
+=================================================================
+
+TERME : « bitch »
+  Humain → {'autre': 24, 'sujet': 18, 'objet direct': 17, 'attribut': 8}
+  IA     → {}
+  Exemples humain :
+    • ain't nobody know have we ever hit the same bitch before?
+    • uhh, well bitch, i'm out here puttin' on i hope you feel the pain
+    • uhh, well bitch, how you get the number?
+  Exemples IA :
+
+TERME : « slut »
+  Humain → {'sujet': 1}
+  IA     → {}
+  Exemples humain :
+  Exemples IA :
+
+TERME : « trick »
+  Humain → {'autre': 2, 'objet direct': 1}
+  IA     → {}
+  Exemples humain :
+    • and you ain't hard trick hell you say?
+  Exemples IA :
+
+TERME : « whore »
+  Humain → {'objet direct': 1}
+  IA     → {}
+  Exemples humain :
+  Exemples IA :
+
+TERME : « skank »
+  Humain → {'sujet': 1}
+  IA     → {}
+  Exemples humain :
+  Exemples IA :
+
+TERME : « smash »
+  Humain → {'autre': 1}
+  IA     → {}
+  Exemples humain :
+  Exemples IA :
+
+TERME : « ratchet »
+  Humain → {'objet direct': 2, 'autre': 2, 'objet préposition': 1}
+  IA     → {}
+  Exemples humain :
+  Exemples IA :

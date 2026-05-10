@@ -1,0 +1,75 @@
+=================================================================
+RAPPORT — ANALYSE LEXICALE MISOGYNE/GENRÉE
+Comparaison corpus humain vs corpus IA
+=================================================================
+
+--- FRÉQUENCES GLOBALES (/ million de mots) ---
+        misogyne  neutre_genré  positif_genré
+corpus                                       
+humain    2638.1       10433.6          199.0
+IA          34.2        1790.2          165.3
+
+--- BREAKDOWN PAR THÈME ---
+                    misogyne  neutre_genré  positif_genré
+theme       corpus                                       
+Way of Life Humain    1237.4        6929.2           89.1
+            IA           0.0        3937.7          145.8
+Love        Humain    2066.0       16988.8          188.9
+            IA          27.0         701.3          175.3
+Money       Humain    3477.5        9544.5          251.9
+            IA          54.2        2085.9          162.5
+
+--- RATIO MISOGYNE / POSITIF PAR THÈME ---
+
+  Way of Life
+    Humain   ratio = 13.9  (misogyne=1237.4, positif=89.1)
+    IA       ratio = 0.0  (misogyne=0.0, positif=145.8)
+
+  Love
+    Humain   ratio = 10.9  (misogyne=2066.0, positif=188.9)
+    IA       ratio = 0.2  (misogyne=27.0, positif=175.3)
+
+  Money
+    Humain   ratio = 13.8  (misogyne=3477.5, positif=251.9)
+    IA       ratio = 0.3  (misogyne=54.2, positif=162.5)
+
+--- COOCCURRENTS DES TERMES MISOGYNES (top 10) ---
+
+  [Humain]
+    rack                 226
+    bitch                215
+    yeah                 173
+    city                 143
+    like                 100
+    got                  76
+    ain't                74
+    boss                 74
+    bad                  67
+    get                  62
+    fuck                 61
+    huh                  50
+    ass                  48
+    shit                 44
+    nigga                44
+
+  [IA]
+    breeze               1
+    cruel                1
+    fate                 1
+    another              1
+    broken               1
+    stop                 1
+    called               1
+    last                 1
+    night                1
+    cried                1
+    design               1
+    leaving              1
+    room                 1
+    world                1
+    stage                1
+
+--- OBSERVATIONS AUTOMATIQUES ---
+  Le corpus IA est MOINS 'misogyne' que le corpus humain (2603.9/M de différence)
+  Le corpus IA est MOINS 'neutre_genré' que le corpus humain (8643.4/M de différence)
+  Le corpus IA est MOINS 'positif_genré' que le corpus humain (33.7/M de différence)
