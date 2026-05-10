@@ -7,7 +7,7 @@ Anna Sugak, Anna Ushmarina, Daria Tupikina, Elane Grandmougin, Serafima Klimova
 
 ## Description
 
-Ce projet compare un corpus de paroles de rap américain collectées via Genius avec un corpus de paroles générées par trois modèles de langage — **Gemma**, **Mixtral** et **Qwen** — autour de trois thèmes : **Money**, **Way of Life** et **Love**.
+Ce projet compare un corpus de paroles de rap américain collectées via Genius avec un corpus de paroles générées par trois modèles de langage, **Gemma**, **Mixtral** et **Qwen**, autour de trois thèmes : **Money**, **Way of Life** et **Love**.
 
 L'objectif est d'analyser dans quelle mesure les structures stylistiques et les biais sociaux (notamment la misogynie) présents dans les œuvres humaines sont reproduits par l'IA.
 
