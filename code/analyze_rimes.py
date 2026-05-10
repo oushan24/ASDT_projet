@@ -53,7 +53,7 @@ def analyze_by_windows(text, window_size=4):
 paths_humain = ["/life/life_corpus.txt", "/love/love_corpus.txt", "/money/money_corpus.txt"]
 humain_corpus = ""
 for i in paths_humain:
-    path = "/Users/dariatupikina/Documents/Analyse_statistique/ASDT_projet/corpus/humain" + i
+    path = "../corpus/humain" + i
     with open(path, 'r', encoding='utf-8') as f:
         humain_corpus += f.read()
 
@@ -69,7 +69,7 @@ for scheme, freq in counts.most_common():
 paths_gemma = ["/gemma_hood.txt", "/gemma_love.txt", "/gemma_money.txt"]
 gemma_corpus = ""
 for i in paths_gemma:
-    path = "/Users/dariatupikina/Documents/Analyse_statistique/ASDT_projet/corpus/IA/gemma" + i
+    path = "../corpus/IA/gemma" + i
     with open(path, 'r', encoding='utf-8') as f:
         gemma_corpus += f.read()
 
@@ -85,7 +85,7 @@ for scheme, freq in counts2.most_common():
 paths_mixtral = ["/mixtral_hood.txt", "/mixtral_love.txt", "/mixtral_money.txt"]
 mixtral_corpus = ""
 for i in paths_mixtral:
-    path = "/Users/dariatupikina/Documents/Analyse_statistique/ASDT_projet/corpus/IA/mixtral" + i
+    path = "../corpus/IA/mixtral" + i
     with open(path, 'r', encoding='utf-8') as f:
         mixtral_corpus += f.read()
 
@@ -101,7 +101,7 @@ for scheme, freq in counts3.most_common():
 paths_qwen = ["/qwen_life.txt", "/qwen_love.txt", "/qwen_money.txt"]
 qwen_corpus = ""
 for i in paths_qwen:
-    path = "/Users/dariatupikina/Documents/Analyse_statistique/ASDT_projet/corpus/IA/qwen" + i
+    path = "../corpus/IA/qwen" + i
     with open(path, 'r', encoding='utf-8') as f:
         qwen_corpus += f.read()
 
