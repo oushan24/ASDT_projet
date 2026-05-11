@@ -24,4 +24,4 @@ def check_for_duplicates(file_path1, file_path2):
         print(f"Error: {e}")
 
 # Assuming your files are named list1.txt and list2.txt
-check_for_duplicates('/home/tupikina/Documents/Cours/Plurital/M_Valette/ASDT_projet/corpus/humain/all songs/love_songs2.txt', '/home/tupikina/Documents/Cours/Plurital/M_Valette/ASDT_projet/corpus/humain/all songs/tough_life_songs.txt')
+check_for_duplicates('../corpus/humain/all songs/love_songs.txt', '../corpus/humain/all songs/tough_life_songs.txt')
